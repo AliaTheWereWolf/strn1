@@ -1,0 +1,48 @@
+/* === Reset i zmienne === */
+:root {
+  --color-primary: #8d45a3;
+  --color-accent: #8d45a3;
+  --color-highlight: #ffc107;
+  --color-bg: #000000;
+  --color-text: #efc6ff;
+  --color-border: #8d45a3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #29042c;
+  color: var(--color-text);
+}
+
+.player-card {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 3px solid var(--color-primary);
+  background-color: var(--color bg);
+  border-radius: 50px;
+}
+
+.card-header {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--color-accent);
+  text-align: center;
+  border-radius: 250px;
+}
+
+.card-section {
+  border: 5px solid var(--color-border);
+  border-radius: 25px;
+  padding: 15px;
+  margin: 25px auto;
+}
